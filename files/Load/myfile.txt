@@ -1,3 +1,2 @@
-rice
-beef
-means
+This is crazy
+This won't print
