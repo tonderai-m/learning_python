@@ -1,8 +1,0 @@
-README.md
-setup.py
-func/__init__.py
-func/functions.py
-func_one.egg-info/PKG-INFO
-func_one.egg-info/SOURCES.txt
-func_one.egg-info/dependency_links.txt
-func_one.egg-info/top_level.txt
