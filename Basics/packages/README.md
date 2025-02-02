@@ -1,0 +1,2 @@
+This are continuously edited files that are use all the time and make them all accessible through out the python 
+files with the env conda while i work. It's in edit mode such that it continuous to constantly get updated
