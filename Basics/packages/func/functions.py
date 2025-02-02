@@ -1,22 +1,33 @@
-"""_summary_
+"""
+    This is my personal function that returns list of random numbers 
+    either sorted or how ever you want
+
 
     Returns:
-        _type_: _description_
+        list: random numbers 
  """
 import random
 
 
-def rand_gen(x, y, z=False, w=1):
-    """_summary_
+def rand_gen(n, y, z=False, w=1):
+    """ list of n random number generator 
 
     Args:
-        x (_type_): _description_
-        y (_type_): _description_
-        z (bool, optional): _description_. Defaults to False.
-        w (int, optional): _description_. Defaults to 1.
+
+        n (int): range how may 
+        y (int): Upper bound
+        z (bool, optional): sorted or not. Defaults to False.
+        w (int, optional): lower bound. Defaults to 1.
 
     Returns:
-        _type_: _description_
+        list: int 
+    
+    import func.functions as randme 
+
+    randme.rand_gen(15,10,False,-5)
+
+    return: [8, 8, 1, 2, 9, -1, -3, 2, 0, -4, -1, 2, 1, 7, 2]
+
     """
-    arr = [random.randint(w, y) for i in range(x)]
+    arr = [random.randint(w, y) for i in range(n)]
     return sorted(arr) if z else arr
